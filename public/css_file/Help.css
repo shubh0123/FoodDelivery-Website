@@ -1,0 +1,36 @@
+
+input[type="text"]{
+    margin-top: 5px;
+   width: 80%;
+   cursor: pointer;
+   height: 2rem
+ }
+ input[type="number"]{
+    margin-top: 5px;
+   width: 80%;
+   cursor: pointer;
+   height: 2rem
+ }
+  
+ input[type="email"]{
+    margin-top: 5px;
+    width:80%;
+    height: 2rem;
+    cursor: pointer;
+ }
+ button{
+   height:2.2rem;
+   background-color: crimson;
+   border-radius: 10px;
+   box-shadow: bisque;
+   box-sizing: border-box;
+   color: white;
+   
+ }
+ button:hover{
+   cursor: pointer;
+  
+   margin-top: 5px;
+
+ }
+

@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+  
+}
+body{
+    background: url("../images/hermes-rivera-Ww8eQWjMJWk-unsplash_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container{
+background: white;
+width: 500px;
+height: 150px;
+border-radius: 20px;
+box-shadow:10px ;
+padding: 40px;
+margin-left: 180px;
+margin-top: 300px;
+padding: 10px;
+font-weight: bolder;
+font-size: 1.2rem;
+box-shadow: azure;
+}
+
+input[type="text"]{
+    margin-top: 5px;
+   width: 80%;
+   cursor: pointer;
+   height: 2rem
+ }
+
+ button{
+   height:2rem;
+   background-color: rgb(250, 114, 248);
+   border-radius: 10px;
+   box-shadow: bisque;
+   box-sizing: border-box;
+   width: 4rem;
+ }
+
+ button:hover{
+   cursor: pointer;
+   width: 4rem;
+   margin-top: 5px;
+ }
+
+.form{
+    margin-top: 30px;
+}
+.form div{
+    margin: 10px;
+}

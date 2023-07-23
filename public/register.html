@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css_file/register.css">
+        <!-- CSS only -->
+
+    <body>
+       <div class="container"><div><h1>Registeration Form</h1>
+        </div>
+        <div class="form">
+            <form action="/register" method="post">
+                <div><i class="fa-solid fa-user"></i><label>Name</label><br>
+                <input name="Name" type="text" placeholder="Enter your name" required></div>
+                    <div><i class="fa-solid fa-person"></i> <label>Gender:</label><br>
+                    <label>Male:</label>
+                    <input type="radio" name="gender"value="Male"  required>
+                    <label>Female:</label>
+                    <input type="radio" name="gender" value="Female" required>
+                    <label>Trans:</label>
+                    <input type="radio" name="gender" value="Trans" required></div>
+                    <div><i class="fa-solid fa-phone"></i><label>Phone Number:</label><br>
+                    <input type="number" name="phone_no" placeholder="Enter an phone number" required></div>
+                    <div><i class="fa-solid fa-envelope"></i>
+                        <label>Email</label><br>
+                    <input type="email" id='email'name="Email"placeholder="Enter an Email" required></div>
+                    <div><i class="fa-solid fa-lock"></i><label>Password</label><br>
+                    <input type="password" id="pass1" placeholder="Enter a Password" name="Password" required><br></div><br>
+                   <center><hr> <button type="submit" >Register</button></center>
+            </form>
+        </div></div>
+        
+        <script src="https://kit.fontawesome.com/3fbace6089.js" crossorigin="anonymous"></script>
+    </body>
+</html>
